@@ -5331,6 +5331,16 @@ public final class Settings {
          * Show network traffic indicator
          * 0 - Statusbar (default)
          * 1 - QS Header
+         * Allow disable of screenshot shutter sound
+         * @hide
+         */
+        public static final String SCREENSHOT_SHUTTER_SOUND = "screenshot_shutter_sound";
+
+        /**
+         * Status bar battery %
+         * 0: Hide the battery percentage
+         * 1: Display the battery percentage inside the icon
+         * 2: Display the battery percentage next to the icon
          * @hide
          */
          public static final String NETWORK_TRAFFIC_VIEW_LOCATION = "network_traffic_view_location";
